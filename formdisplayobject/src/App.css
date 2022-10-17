@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* justify-items: center; */
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  justify-self: center;
+  height: 400px;
+  width: 80%;
+  border: #000000;
+  background-color: rgba(30, 255, 255, 0.336);
+  flex-direction: column;
+  box-shadow: #0505053d;
+  border-radius: 10px;
+}
+
+input {
+  display: flex;
+  justify-items: center;
+  border-radius: 9px;
+  height: 30px;
+  background-color: rgba(127, 255, 212, 0.192);
+}
+
+input:hover {
+  background-color: cyan;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  height: 25px;
+  width: 25pc;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.164);
+}
